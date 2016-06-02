@@ -1,0 +1,41 @@
+{% verbatim %}
+<script id="_choose_teams_template" type="mustache/template">
+	
+	<nav id="main_nav_bar" class="nav_bar">
+	
+		<div><a id="single_game_simulation" method="GET" data-template="#_single_game_template">Run Single Game Simulation</a></div>
+
+
+<div class="mainBoxContentWrapper">
+			<div class="mainBoxContent" id="homeTeamBox">
+		
+				<h3>Home Team</h3>
+			
+			
+			<br><select id="home_name" name="home_name" onchange="fillSeasonList(this.form.hseason, this.options[this.selectedIndex].text);"><option selected>Anaheim Angels</option><option>Arizona Diamondbacks</option><option>Atlanta Braves</option><option>Baltimore Orioles</option><option>Baltimore Terrapins</option><option>Boston Americans</option><option>Boston Beaneaters</option><option>Boston Bees</option><option>Boston Braves</option><option>Boston Doves</option><option>Boston Red Sox</option><option>Boston Reds</option><option>Brooklyn Bridegrooms</option><option>Brooklyn Dodgers</option><option>Brooklyn Feds</option><option>Brooklyn Gladiators</option><option>Brooklyn Grays</option><option>Brooklyn Robins</option><option>Brooklyn Superbas</option><option>Brooklyn Wonders</option><option>Buffalo Bisons</option><option>Buffalo Feds</option><option>California Angels</option><option>Chicago Colts</option><option>Chicago Cubs</option><option>Chicago Orphans</option><option>Chicago Pirates</option><option>Chicago Whales</option><option>Chicago White Sox</option><option>Chicago White Stockings</option><option>Cincinnati Kellys Killers</option><option>Cincinnati Red Stockings</option><option>Cincinnati Reds</option><option>Cleveland Blues</option><option>Cleveland Indians</option><option>Cleveland Infants</option><option>Cleveland Naps</option><option>Cleveland Spiders</option><option>Colorado Rockies</option><option>Columbus Solons</option><option>Detroit Tigers</option><option>Detroit Wolverines</option><option>Florida Marlins</option><option>Houston Astros</option><option>Houston Colt 45s</option><option>Indianapolis Hoosier-Feds</option><option>Indianapolis Hoosiers</option><option>Kansas City Athletics</option><option>Kansas City Cowboys</option><option>Kansas City Packers</option><option>Kansas City Royals</option><option>Los Angeles Angels</option><option>Los Angeles Dodgers</option><option>Louisville Colonels</option><option>Miami Marlins</option><option>Milwaukee Braves</option><option>Milwaukee Brewers</option><option>Minnesota Twins</option><option>Montreal Expos</option><option>New York Giants</option><option>New York Highlanders</option><option>New York Metropolitans</option><option>New York Mets</option><option>New York Yankees</option><option>Newark Peppers</option><option>Oakland Athletics</option><option>Philadelphia Athletics</option><option>Philadelphia Blue Jays</option><option>Philadelphia Phillies</option><option>Philadelphia Quakers</option><option>Pittsburgh Alleghenys</option><option>Pittsburgh Burghers</option><option>Pittsburgh Pirates</option><option>Pittsburgh Rebels</option><option>Providence Grays</option><option>Rochester Broncos</option><option>San Diego Padres</option><option>San Francisco Giants</option><option>Seattle Mariners</option><option>Seattle Pilots</option><option>St. Louis Browns</option><option>St. Louis Cardinals</option><option>St. Louis Maroons</option><option>St. Louis Perfectos</option><option>St. Louis Terriers</option><option>Syracuse Stars</option><option>Tampa Bay Devil Rays</option><option>Tampa Bay Rays</option><option>Texas Rangers</option><option>Toledo Maumees</option><option>Toronto Blue Jays</option><option>Washington Nationals</option><option>Washington Senators</option><option>Washington Statesmen</option></select><br><select id="home_season" name="home_season"><option selected>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>2008</option><option>2007</option><option>2006</option><option>2005</option><option>2004</option><option>2003</option><option>2002</option><option>2001</option><option>2000</option></select><br><input type="submit" class="button" id="homebtn" name="press_submit" value="Set Home Team" title="Set Home">				
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+{% endverbatim %}
+
+
+
+

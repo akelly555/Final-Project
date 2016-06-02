@@ -1,0 +1,11 @@
+# Ice client config
+
+# Proxies
+DataSvc.Proxy=DataSvc:tcp -p 10000
+AnalysisSvc.Proxy=AnalysisSvc:tcp -p 10000
+StatsSvc.Proxy=StatsSvc:tcp -p 10000
+
+Ice.MessageSizeMax=20480          # Maximum message size is 20MB
+
+Ice.Trace.Network=0               # Disable network tracing
+Ice.Trace.Protocol=0              # Disable protocol tracing

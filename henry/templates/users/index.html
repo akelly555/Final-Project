@@ -1,0 +1,64 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<head>
+	<title>Index</title>
+
+
+		<link rel="stylesheet" type="text/css" href="{% static 'users/style_main.css' %}">
+
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!--  		<link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+ -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+		<script src="{% static 'users/ajax_setup.js' %}"></script>
+		<script src="{% static 'users/users.js' %}"></script>
+		<script src="{% static 'users/main.js' %}"></script>	
+
+</head>
+<body>
+
+	<div class="container">
+		
+		<div id="nav_bar_container">
+			
+			<nav id="main_nav_bar" class="nav_bar">
+
+				<div>Home</div>
+				<div>About</div>
+				<div>Demo</div>
+				<div><a id="login_user" data-template="#_login_form_template">Login</a></div>
+				
+				<div><a id="register_user" data-template="#_register_form_template">Register</a></div>
+			
+			</nav>	
+
+		</div>
+		<div id="main-body">
+
+		</div>
+	</div>
+	{% include "users/_main_menu_template.html" %}
+	{% include "users/_user_menu_template.html" %}
+	{% include "users/_register_form_template.html" %}
+	{% include "users/_login_form_template.html" %}
+	{% include "users/_status_template.html" %}
+	{% include "users/_single_game_template.html" %}
+	{% include "users/_set_teams_template.html" %}
+	{% include "users/_entire_season_template.html" %}
+</body>
+</html>
+
+
+

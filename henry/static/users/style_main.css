@@ -1,0 +1,75 @@
+
+
+/*logoshit {
+	
+	background: url("henry_logo.png");	
+	position: absolute;
+	position: fixed;
+
+	background-repeat: no-repeat;
+    position: top-left;*/
+
+/*	background-margin: auto;
+*/
+
+
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+
+
+
+
+/*	background-image: url("dk_baseball.png");
+*/
+
+
+
+body {
+
+
+	background-image: url("field2.png");
+	background-size: cover;
+	background-position: fixed;
+
+    background-repeat: no-repeat;
+    background-position: top-center;
+
+	background-margin: auto;
+
+    width: 100%;
+  	height: auto;
+
+}
+
+#nav_bar_container {
+	
+/*	font-size: large;
+*/	font-size: 25px;
+	font-family: cursive;
+	color: white;
+	font-style: bold;
+	
+
+}
+
+#main_nav_bar {
+
+	font-size: 20px;
+	color: white;
+	font-style: bold;
+	font-family: cursive;
+
+
+
+}
+
+#main-body {
+
+	color: orange;
+
+
+}
